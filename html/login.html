@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="../libs/toast-notification/toast-notification.css">
+<link rel="stylesheet" href="../css/style.css">
+
+  <title>تسجيل الدخول | ترف بيوتي</title>
+</head>
+<body>
+<header class="site-header"><div class="header-inner"><h1 class="brand-name">ترف بيوتي</h1></div></header>
+<nav class="main-nav">
+  <ul>
+    <li><a href="../index.html">الرئيسية</a></li>
+    <li><a href="products.html">المنتجات</a></li>
+    <li><a href="about.html">من نحن</a></li>
+    <li><a href="contact.html">تواصل معنا</a></li>
+    <li><a class="active" href="login.html">تسجيل الدخول</a></li>
+    <li><a href="register.html">إنشاء حساب</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+  <div class="page-title">
+    <h2>تسجيل الدخول</h2>
+    <p>تسجيل الدخول إلى ترف بيوتي</p>
+  </div>
+
+  <section class="section-card form-card">
+    <form id="loginForm" class="needs-validation" novalidate>
+      <div class="mb-3">
+        <label class="form-label" for="loginEmail">البريد الإلكتروني</label>
+        <input class="form-control" id="loginEmail" type="email" required>
+        <div class="invalid-feedback">يرجى إدخال بريد إلكتروني صحيح.</div>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="loginPassword">كلمة المرور</label>
+        <input class="form-control" id="loginPassword" type="password" minlength="6" required>
+        <div class="invalid-feedback">كلمة المرور يجب أن تكون 6 أحرف على الأقل.</div>
+      </div>
+      <button class="btn btn-dark" type="submit">دخول</button>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer"><p>ترف بيوتي</p></footer>
+
+<script src="../libs/jquery/jquery.min.js"></script>
+<script src="../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="../libs/toast-notification/toast-notification.js"></script>
+<script src="../js/main.js"></script>
+
+</body>
+</html>

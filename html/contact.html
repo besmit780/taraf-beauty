@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="../libs/toast-notification/toast-notification.css">
+<link rel="stylesheet" href="../css/style.css">
+
+<link rel="stylesheet" href="../libs/fontawesome/css/all.min.css">
+  <title>تواصل معنا | ترف بيوتي</title>
+</head>
+<body>
+<header class="site-header"><div class="header-inner"><h1 class="brand-name">ترف بيوتي</h1></div></header>
+<nav class="main-nav">
+  <ul>
+    <li><a href="../index.html">الرئيسية</a></li>
+    <li><a href="products.html">المنتجات</a></li>
+    <li><a href="about.html">من نحن</a></li>
+    <li><a class="active" href="contact.html">تواصل معنا</a></li>
+    <li><a href="login.html">تسجيل الدخول</a></li>
+    <li><a href="register.html">إنشاء حساب</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+  <div class="page-title">
+    <h2>تواصل معنا</h2>
+    <p>يسعدنا تواصلك معنا.</p>
+  </div>
+
+  <div class="contact-grid">
+    <section class="section-card">
+      <h3>بيانات التواصل</h3>
+      <ul class="contact-list">
+        <li><i class="fa-solid fa-phone"></i> <strong>رقم الهاتف:</strong> 780667447</li>
+        <li><i class="fa-solid fa-envelope"></i> <strong>البريد الإلكتروني:</strong> bero0ghr@gmail.com</li>
+        <li><i class="fa-brands fa-instagram"></i> <strong>إنستغرام:</strong> abee_4r</li>
+      </ul>
+    </section>
+
+    <section class="section-card">
+      <h3>أرسلي رسالة</h3>
+      <form id="contactForm" class="needs-validation" novalidate>
+        <div class="mb-3">
+          <label class="form-label" for="contactName">الاسم</label>
+          <input class="form-control" id="contactName" type="text" required>
+          <div class="invalid-feedback">يرجى كتابة الاسم.</div>
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="contactEmail">البريد الإلكتروني</label>
+          <input class="form-control" id="contactEmail" type="email" required>
+          <div class="invalid-feedback">يرجى كتابة بريد إلكتروني صحيح.</div>
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="contactMessage">الرسالة</label>
+          <textarea class="form-control" id="contactMessage" rows="4" required></textarea>
+          <div class="invalid-feedback">يرجى كتابة الرسالة.</div>
+        </div>
+        <button class="btn btn-dark" type="submit">إرسال</button>
+      </form>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer"><p>ترف بيوتي</p></footer>
+
+<script src="../libs/jquery/jquery.min.js"></script>
+<script src="../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="../libs/toast-notification/toast-notification.js"></script>
+<script src="../js/main.js"></script>
+
+</body>
+</html>
